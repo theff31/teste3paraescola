@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinião Culinária Brasileira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Opinião Culinária Brasileira</h1>
+        <nav>
+            <ul>
+                <li><a href="#feijoada">Feijoada</a></li>
+                <li><a href="#picanha">Picanha</a></li>
+                <li><a href="#acaraje">Acarajé</a></li>
+                <li><a href="#brigadeiro">Brigadeiro</a></li>
+                <li><a href="#coxinha">Coxinha</a></li>
+                <li><a href="#moqueca">Moqueca</a></li>
+                <li><a href="#pao-de-queijo">Pão de Queijo</a></li>
+                <li><a href="#tapioca">Tapioca</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="feijoada">
+            <h2>Feijoada</h2>
+            <p>A feijoada é um prato tradicional brasileiro feito com feijão preto e carne de porco.</p>
+            <div class="rating">
+                <span onclick="rateDish('feijoada', 1)">⭐</span>
+                <span onclick="rateDish('feijoada', 2)">⭐</span>
+                <span onclick="rateDish('feijoada', 3)">⭐</span>
+                <span onclick="rateDish('feijoada', 4)">⭐</span>
+                <span onclick="rateDish('feijoada', 5)">⭐</span>
+            </div>
+            <p id="feijoada-rating">Avaliação: 0 estrelas</p>
+        </section>
+
+        
+        <section id="picanha">
+            <h2>Picanha</h2>
+            <p>A picanha é um corte de carne bovina muito apreciado no Brasil, especialmente em churrascos.</p>
+            <div class="rating">
+                <span onclick="rateDish('picanha', 1)">⭐</span>
+                <span onclick="rateDish('picanha', 2)">⭐</span>
+                <span onclick="rateDish('picanha', 3)">⭐</span>
+                <span onclick="rateDish('picanha', 4)">⭐</span>
+                <span onclick="rateDish('picanha', 5)">⭐</span>
+            </div>
+            <p id="picanha-rating">Avaliação: 0 estrelas</p>
+        </section>
+    
+
+         <section id="acaraje">
+            <h2>Acarajé</h2>
+            <p>O acarajé é um bolinho feito com feijão-fradinho e frito no azeite de dendê, típico da culinária baiana.</p>
+            <div class="rating">
+                <span onclick="rateDish('acaraje', 1)">⭐</span>
+                <span onclick="rateDish('acaraje', 2)">⭐</span>
+                <span onclick="rateDish('acaraje', 3)">⭐</span>
+                <span onclick="rateDish('acaraje', 4)">⭐</span>
+                <span onclick="rateDish('acaraje', 5)">⭐</span>
+            </div>
+            <p id="acaraje-rating">Avaliação: 0 estrelas</p>
+        </section>
+        
+        <section id="brigadeiro">
+            <h2>Brigadeiro</h2>
+            <p>O brigadeiro é um doce brasileiro feito com leite condensado, manteiga e chocolate em pó.</p>
+            <div class="rating">
+                <span onclick="rateDish('brigadeiro', 1)">⭐</span>
+                <span onclick="rateDish('brigadeiro', 2)">⭐</span>
+                <span onclick="rateDish('brigadeiro', 3)">⭐</span>
+                <span onclick="rateDish('brigadeiro', 4)">⭐</span>
+                <span onclick="rateDish('brigadeiro', 5)">⭐</span>
+            </div>
+            <p id="brigadeiro-rating">Avaliação: 0 estrelas</p>
+        </section>
+    
+
+            <section id="coxinha">
+            <h2>Coxinha</h2>
+            <p>A coxinha é um salgado popular feito com massa de batata recheada com frango desfiado e temperado, empanada e frita.</p>
+            <div class="rating">
+                <span onclick="rateDish('coxinha', 1)">⭐</span>
+                <span onclick="rateDish('coxinha', 2)">⭐</span>
+                <span onclick="rateDish('coxinha', 3)">⭐</span>
+                <span onclick="rateDish('coxinha', 4)">⭐</span>
+                <span onclick="rateDish('coxinha', 5)">⭐</span>
+            </div>
+            <p id="coxinha-rating">Avaliação: 0 estrelas</p>
+        </section>
+
+        <!-- Nova seção: Moqueca -->
+        <section id="moqueca">
+            <h2>Moqueca</h2>
+            <p>Moqueca é um prato tradicional brasileiro feito com peixe ou frutos do mar, cozido lentamente em leite de coco e azeite de dendê, com pimentões, cebolas, tomates e coentro.</p>
+            <div class="rating">
+                <span onclick="rateDish('moqueca', 1)">⭐</span>
+                <span onclick="rateDish('moqueca', 2)">⭐</span>
+                <span onclick="rateDish('moqueca', 3)">⭐</span>
+                <span onclick="rateDish('moqueca', 4)">⭐</span>
+                <span onclick="rateDish('moqueca', 5)">⭐</span>
+            </div>
+            <p id="moqueca-rating">Avaliação: 0 estrelas</p>
+        </section>
+
+        <!-- Nova seção: Pão de Queijo -->
+        <section id="pao-de-queijo">
+            <h2>Pão de Queijo</h2>
+            <p>Pão de Queijo é um pãozinho típico de Minas Gerais, feito com polvilho e queijo, crocante por fora e macio por dentro.</p>
+            <div class="rating">
+                <span onclick="rateDish('pao-de-queijo', 1)">⭐</span>
+                <span onclick="rateDish('pao-de-queijo', 2)">⭐</span>
+                <span onclick="rateDish('pao-de-queijo', 3)">⭐</span>
+                <span onclick="rateDish('pao-de-queijo', 4)">⭐</span>
+                <span onclick="rateDish('pao-de-queijo', 5)">⭐</span>
+            </div>
+            <p id="pao-de-queijo-rating">Avaliação: 0 estrelas</p>
+        </section>
+
+        <!-- Nova seção: Tapioca -->
+        <section id="tapioca">
+            <h2>Tapioca</h2>
+            <p>Tapioca é um beiju feito com goma de tapioca, com recheios variados como queijo, coco, carne seca, entre outros.</p>
+            <div class="rating">
+                <span onclick="rateDish('tapioca', 1)">⭐</span>
+                <span onclick="rateDish('tapioca', 2)">⭐</span>
+                <span onclick="rateDish('tapioca', 3)">⭐</span>
+                <span onclick="rateDish('tapioca', 4)">⭐</span>
+                <span onclick="rateDish('tapioca', 5)">⭐</span>
+            </div>
+            <p id="tapioca-rating">Avaliação: 0 estrelas</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
